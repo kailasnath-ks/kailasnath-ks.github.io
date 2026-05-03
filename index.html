@@ -1,457 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kailasnath K S - QA Engineer Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kailasnath K S — QA Engineer</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>Kailasnath K S</h2>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#certifications" class="nav-link">Certifications</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Kailasnath K S</h1>
-                    <h2>QA Engineer</h2>
-                    <p>Skilled in Manual & Automation Testing with a passion for quality assurance and continuous learning</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="kailasnathan.pdf" download class="btn btn-secondary">
-                            <i class="fas fa-download"></i> Download Resume
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="A4619.png" alt="Kailasnath K S" class="profile-image">
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">KKS<span class="blink">_</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#certifications" class="mobile-link">Certifications</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+</nav>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About Me</h2>
-                <p>Get to know more about my background and aspirations</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Hello, I'm Kailasnath K S</h3>
-                    <p>
-                        I am a Junior Quality Analyst with hands-on experience in manual and automation testing through academic and project work. With a BSc in Computer Science from Sree Sankara Vidyapeetom College (2021-2024), I have developed strong technical skills and a deep understanding of testing methodologies.
-                    </p>
-                    <p>
-                        My career goal is to build a strong career in Software Testing, focusing on both Manual and Automation Testing. I am committed to continuous learning and bringing quality to every project I work on.
-                    </p>
-                    <div class="about-values">
-                        <h4>Core Values:</h4>
-                        <ul>
-                            <li><i class="fas fa-search"></i> Curious - Always eager to learn new technologies and methodologies</li>
-                            <li><i class="fas fa-handshake"></i> Committed - Dedicated to delivering high-quality results</li>
-                            <li><i class="fas fa-graduation-cap"></i> Continuous Learning - Constantly improving skills and knowledge</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="about-info">
-                    <div class="info-card">
-                        <h4><i class="fas fa-graduation-cap"></i> Education</h4>
-                        <p><strong>BSc Computer Science</strong><br>
-                        Sree Sankara Vidyapeetom College<br>
-                        2021 - 2024</p>
-                    </div>
-                    <div class="info-card">
-                        <h4><i class="fas fa-map-marker-alt"></i> Location</h4>
-                        <p>Perumbavoor, Ernakulam<br>
-                        Kerala, India</p>
-                    </div>
-                    <div class="info-card">
-                        <h4><i class="fas fa-briefcase"></i> Current Role</h4>
-                        <p>Junior QA at Radiant Acemoney<br>
-                        Thrikakkara, Kochi</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-tag">// QA Engineer</p>
+      <h1 class="hero-name">Kailasnath<br><span class="accent">K S</span></h1>
+      <p class="hero-desc">Manual &amp; Automation Testing · API Validation · Fintech QA · Agile Sprint Releases</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Get In Touch</a>
+        <a href="Kailasnath_KS_Resume.pdf" download class="btn-outline">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <div class="img-ring">
+        <img src="A4619.png" alt="Kailasnath K S" class="profile-photo">
+      </div>
+      <div class="hero-badge">
+        <span class="dot"></span> Open to opportunities
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <i class="fas fa-arrow-down"></i>
+  </div>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Skills</h2>
-                <p>Technical expertise and testing competencies</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Testing Tools</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fas fa-bug"></i>
-                            <span>Selenium WebDriver</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-tasks"></i>
-                            <span>TestNG</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-cogs"></i>
-                            <span>Maven</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-chart-line"></i>
-                            <span>JMeter</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code"></i>
-                            <span>Postman</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-ticket-alt"></i>
-                            <span>Jira</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Languages & Technologies</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-java"></i>
-                            <span>Java</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-html5"></i>
-                            <span>HTML</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3-alt"></i>
-                            <span>CSS</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database"></i>
-                            <span>MySQL</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-git-alt"></i>
-                            <span>Git</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-file-excel"></i>
-                            <span>Excel</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-clipboard-check"></i> Testing Concepts</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fas fa-hand-point-up"></i>
-                            <span>Manual Testing</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-robot"></i>
-                            <span>Automation Testing</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-mobile-alt"></i>
-                            <span>Mobile Testing</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-list-alt"></i>
-                            <span>Test Case Design</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-sync"></i>
-                            <span>SDLC/STLC</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-users"></i>
-                            <span>Agile Scrum Methodology</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- About -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-label">// 01 &nbsp; about</div>
+    <h2 class="section-title">Hello, I'm Kailasnath</h2>
+    <div class="about-grid">
+      <div class="about-bio">
+        <p>I'm a QA Engineer with hands-on experience in manual and automation testing, API validation, regression testing, and fintech application testing within Agile environments.</p>
+        <p>Proficient in Selenium (Java), Postman, Jira, K6/JMeter, and REST API testing — experienced in sprint-based QA processes, defect management, and cross-team collaboration to ensure high-quality releases.</p>
+        <div class="values-row">
+          <div class="value-chip"><i class="fas fa-search"></i> Curious</div>
+          <div class="value-chip"><i class="fas fa-handshake"></i> Committed</div>
+          <div class="value-chip"><i class="fas fa-graduation-cap"></i> Always Learning</div>
         </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2>Experience</h2>
-                <p>Professional journey and key achievements</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">July 2025 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Junior QA</h3>
-                        <h4>Radiant Acemoney - Kochi, Thrikakkara</h4>
-                        <ul>
-                            <li>Practiced manual and automation testing techniques through hands-on exercises and real-time scenarios</li>
-                            <li>Gained experience in bug tracking using Jira and reporting issues clearly</li>
-                            <li>Proficient in writing and executing test cases for web and software applications</li>
-                            <li>Applied understanding of SDLC, STLC, and the defect lifecycle throughout the QA process</li>
-                            <li>Explored SQL query development for understanding data structures and basic validation</li>
-                            <li>Created automation test scripts using Selenium WebDriver integrated with TestNG and Maven</li>
-                            <li>Performed API testing using Postman and validated response data against requirements</li>
-                        </ul>
-                    </div>
-                </div>
-            
-                <div class="timeline-item">
-                    <div class="timeline-date">Mar 2025 - July 2025</div>
-                    <div class="timeline-content">
-                        <h3>QA Intern</h3>
-                        <h4>Camerinfolks - Kochi, Kakkanad</h4>
-                        <ul>
-                            <li>Practiced manual and automation testing techniques through hands-on exercises and real-time scenarios</li>
-                            <li>Gained experience in bug tracking using Jira and reporting issues clearly</li>
-                            <li>Proficient in writing and executing test cases for web and software applications</li>
-                            <li>Applied understanding of SDLC, STLC, and the defect lifecycle throughout the QA process</li>
-                            <li>Explored SQL query development for understanding data structures and basic validation</li>
-                            <li>Created automation test scripts using Selenium WebDriver integrated with TestNG and Maven</li>
-                            <li>Performed API testing using Postman and validated response data against requirements</li>
-                        </ul>
-                    </div>
-                </div>
-                
+      </div>
+      <div class="about-cards">
+        <div class="info-tile">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <strong>BSc Computer Science</strong>
+            <span>Sree Sankara Vidyapeetom College · 2021–2024</span>
+          </div>
         </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Projects</h2>
-                <p>Testing projects and technical implementations</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Swag Labs Testing</h3>
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <p>Performed comprehensive manual testing on Swag Labs e-commerce demo site, designing and executing test cases using Excel to validate login, cart, checkout, and UI functionalities.</p>
-                    <div class="project-tech">
-                        <span>Manual Testing</span>
-                        <span>Excel</span>
-                        <span>Test Case Design</span>
-                        <span>UI Testing</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Guru99 Demo Testing</h3>
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <p>Tested a web application focusing on UI and functional validation using Excel for manual test cases and Selenium with TestNG and Maven for basic automation testing.</p>
-                    <div class="project-tech">
-                        <span>Selenium</span>
-                        <span>TestNG</span>
-                        <span>Maven</span>
-                        <span>Manual Testing</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>College Club Portal</h3>
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <p>Developed and tested a PHP-based web platform for managing student club activities, including login, event creation, and admin panels, with basic manual testing to ensure functionality.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>Manual Testing</span>
-                        <span>Web Development</span>
-                        
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Event Management System</h3>
-                        <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <p>Built and tested an event booking platform using Python Django, performing UI validation and functional testing to ensure a smooth user experience.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Python</span>
-                        <span>Django</span>
-                        <span>SQLite</span>
-                        <span>UI Testing</span>
-                        <span>Functional Testing</span>
-                        <span>Backend Testing</span>
-                    </div>
-                </div>
-            </div>
+        <div class="info-tile">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Location</strong>
+            <span>Perumbavoor, Ernakulam, Kerala</span>
+          </div>
         </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2>Certifications</h2>
-                <p>Professional certifications and achievements</p>
-            </div>
-            <div class="certifications-grid">
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-bug"></i>
-                    </div>
-                    <h3>Software Testing</h3>
-                    <p>Camerinfolks</p>
-                    <span class="cert-date">2025</span>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fab fa-redhat"></i>
-                    </div>
-                    <h3>Red Hat System Administration I (RH124)</h3>
-                    <p>Red Hat</p>
-                    <span class="cert-date">May 2024</span>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3>SQL and Relational Databases 101</h3>
-                    <p>IBM</p>
-                    <span class="cert-date">September 2024</span>
-                </div>
-            </div>
+        <div class="info-tile">
+          <i class="fas fa-briefcase"></i>
+          <div>
+            <strong>Current Role</strong>
+            <span>Junior QA · Radiant Acemoney, Kochi</span>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Contact Me</h2>
-                <p>Let's connect and discuss opportunities</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>kailasn778@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91-7034387286</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Perumbavoor, Ernakulam</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <p><a href="https://www.linkedin.com/in/kailasnath-k-s-782729295/" target="_blank">Connect with me</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <p><a href="https://github.com/kailasnath-ks" target="_blank">Check My Github</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form action="https://formspree.io/f/xeozgybz" method="POST">
-                      <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                      </div>
-                      <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                      </div>
-                      <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                      </div>
-                  
-                      <!-- Optional: Add subject or redirect -->
-                      <input type="hidden" name="_subject" value="New Portfolio Contact Message">
-                      <input type="hidden" name="_captcha" value="false">
-                      <!-- Optional redirect after success -->
-                      <input type="hidden" name="_next" value="index.html"> 
-                  
-                      <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                  </div>
-                  
-                  
-            </div>
+<!-- Skills -->
+<section id="skills" class="section skills-section">
+  <div class="container">
+    <div class="section-label">// 02 &nbsp; skills</div>
+    <h2 class="section-title">Technical Stack</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <i class="fas fa-tools"></i>
+          <h3>Testing Tools</h3>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Kailasnath K S. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/kailasnath-k-s-782729295/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:kailasn778@gmail.com"><i class="fas fa-envelope"></i></a>
-                    <a href="https://github.com/kailasnath-ks" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
+        <div class="skill-tags">
+          <span>Selenium WebDriver</span>
+          <span>TestNG</span>
+          <span>Maven</span>
+          <span>JMeter</span>
+          <span>K6</span>
+          <span>Postman</span>
+          <span>Jira</span>
+          <span>Burp Suite</span>
+          <span>Swagger API</span>
         </div>
-    </footer>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <i class="fas fa-code"></i>
+          <h3>Languages &amp; Tech</h3>
+        </div>
+        <div class="skill-tags">
+          <span>Java</span>
+          <span>SQL</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Git</span>
+          <span>Excel</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <i class="fas fa-clipboard-check"></i>
+          <h3>Testing Concepts</h3>
+        </div>
+        <div class="skill-tags">
+          <span>Manual Testing</span>
+          <span>Automation Testing</span>
+          <span>Mobile Testing</span>
+          <span>API Testing</span>
+          <span>Performance Testing</span>
+          <span>Regression Testing</span>
+          <span>Test Case Design</span>
+          <span>SDLC / STLC</span>
+          <span>Agile / Scrum</span>
+          <span>Defect Management</span>
+          <span>Security Testing</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="section exp-section">
+  <div class="container">
+    <div class="section-label">// 03 &nbsp; experience</div>
+    <h2 class="section-title">Professional Journey</h2>
+
+    <div class="timeline">
+
+      <div class="tl-item reveal">
+        <div class="tl-marker">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-body">
+          <div class="tl-meta">
+            <span class="tl-date">Jul 2025 – Present</span>
+            <span class="tl-badge current">Current</span>
+          </div>
+          <h3 class="tl-role">Junior Quality Analyst</h3>
+          <p class="tl-company"><i class="fas fa-building"></i> Radiant Acemoney · Kochi, Thrikakkara</p>
+          <ul class="tl-points">
+            <li>Designed and executed 150+ manual test cases covering functional, regression, smoke, and validation testing for web and mobile applications across Agile sprints.</li>
+            <li>Identified and reported 40+ defects per sprint in Jira with detailed reproduction steps, screenshots, and severity classification — achieving an average 95% retest pass rate.</li>
+            <li>Validated REST APIs using Postman — JSON responses, authentication workflows, status codes, and edge-case business validations.</li>
+            <li>Implemented Selenium automation scripts with Java (TestNG/Maven) for repetitive test flows; conducted K6/JMeter performance testing.</li>
+            <li>Tested fintech modules including AEPS, mATM, bill payments, KSEB, and KWA POS device workflows — covering 100+ edge-case and negative test scenarios.</li>
+            <li>Collaborated with developers, product, and QA teams during sprint reviews, defect triage, and release validation — contributing to 10+ successful sprint releases.</li>
+            <li>Performed basic security testing exposure using Burp Suite across authentication and input validation flows.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Selenium</span><span>Postman</span><span>Jira</span><span>K6</span><span>JMeter</span><span>Burp Suite</span><span>Agile</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-marker">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-body">
+          <div class="tl-meta">
+            <span class="tl-date">Mar 2025 – Jul 2025</span>
+          </div>
+          <h3 class="tl-role">QA Intern</h3>
+          <p class="tl-company"><i class="fas fa-building"></i> Camerinfolks · Kochi, Kakkanad</p>
+          <ul class="tl-points">
+            <li>Wrote and executed 100+ test cases for web applications; logged 30+ bugs with clear reproduction steps and structured severity reports.</li>
+            <li>Built Selenium WebDriver automation scripts integrated with TestNG and Maven, covering core login and workflow scenarios.</li>
+            <li>Performed API testing using Postman — validating response data, status codes, and schema against requirements.</li>
+            <li>Applied SDLC, STLC, and defect lifecycle knowledge throughout QA processes; wrote SQL queries to validate backend data integrity.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Selenium</span><span>TestNG</span><span>Maven</span><span>Postman</span><span>SQL</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <div class="section-label">// 04 &nbsp; projects</div>
+    <h2 class="section-title">Testing Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-num">01</div>
+        <h3>Swag Labs E-Commerce Testing</h3>
+        <p>Comprehensive manual testing on the Swag Labs demo site — designed and executed test cases using Excel to validate login, cart, checkout, and UI functionalities.</p>
+        <div class="project-tags">
+          <span>Manual Testing</span><span>Excel</span><span>Test Case Design</span><span>UI Testing</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">02</div>
+        <h3>Guru99 Demo Site Testing</h3>
+        <p>UI and functional validation using manual test cases in Excel, plus automated regression scripts via Selenium with TestNG and Maven.</p>
+        <div class="project-tags">
+          <span>Selenium</span><span>Java</span><span>TestNG</span><span>Maven</span><span>Excel</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">03</div>
+        <h3>College Club Portal</h3>
+        <p>Developed and tested a PHP-based web platform for student club management — login, event creation, and admin panels, with manual testing to ensure functionality.</p>
+        <div class="project-tags">
+          <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>Manual Testing</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">04</div>
+        <h3>Event Management System</h3>
+        <p>Built and tested an event booking platform using Python Django — performed UI validation and functional testing to ensure a smooth user experience.</p>
+        <div class="project-tags">
+          <span>Python</span><span>Django</span><span>SQLite</span><span>UI Testing</span><span>Functional Testing</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Certifications -->
+<section id="certifications" class="section certs-section">
+  <div class="container">
+    <div class="section-label">// 05 &nbsp; certifications</div>
+    <h2 class="section-title">Credentials</h2>
+    <div class="certs-grid">
+
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fas fa-bug"></i></div>
+        <div class="cert-info">
+          <h3>Software Testing</h3>
+          <p>Camerinfolks</p>
+          <span>2025</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fab fa-redhat"></i></div>
+        <div class="cert-info">
+          <h3>Red Hat System Administration I (RH124)</h3>
+          <p>Red Hat</p>
+          <span>May 2024</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon"><i class="fas fa-database"></i></div>
+        <div class="cert-info">
+          <h3>SQL and Relational Databases 101</h3>
+          <p>IBM / Cognitive Class</p>
+          <span>September 2024</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-label">// 06 &nbsp; contact</div>
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="contact-sub">Open to new opportunities, collaborations, or just a chat about QA.</p>
+
+    <div class="contact-grid">
+      <div class="contact-links">
+        <a href="mailto:kailasn778@gmail.com" class="contact-item">
+          <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+          <div><strong>Email</strong><span>kailasn778@gmail.com</span></div>
+        </a>
+        <a href="tel:+917034387286" class="contact-item">
+          <div class="ci-icon"><i class="fas fa-phone"></i></div>
+          <div><strong>Phone</strong><span>+91 70343 87286</span></div>
+        </a>
+        <a href="https://www.linkedin.com/in/kailasnath-k-s-782729295/" target="_blank" class="contact-item">
+          <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
+          <div><strong>LinkedIn</strong><span>kailasnath-k-s</span></div>
+        </a>
+        <a href="https://github.com/kailasnath-ks" target="_blank" class="contact-item">
+          <div class="ci-icon"><i class="fab fa-github"></i></div>
+          <div><strong>GitHub</strong><span>kailasnath-ks</span></div>
+        </a>
+        <div class="contact-item no-link">
+          <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div><strong>Location</strong><span>Perumbavoor, Ernakulam, Kerala</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/xeozgybz" method="POST">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-row">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-row">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="index.html">
+        <button type="submit" class="btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; 2025 Kailasnath K S. Crafted with care.</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/kailasnath-k-s-782729295/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/kailasnath-ks" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:kailasn778@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
